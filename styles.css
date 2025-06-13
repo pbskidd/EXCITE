@@ -1324,7 +1324,7 @@ body::after {
 
 
 .hero-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 400;
 }
 
@@ -1392,3 +1392,23 @@ body::after {
     backdrop-filter: blur(10px);
     border-bottom: 1px solid rgb(255 57 0 / 10%);
 }
+
+.dash_logo{
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.sidebar-icon{
+	    filter: sepia(100%) hue-rotate(309deg) saturate(400%) opacity(1);
+}
+
+.notification-icon{
+	    filter: sepia(100%) hue-rotate(309deg) saturate(400%) opacity(1);
+}
+
+.settings-icon{
+	    filter: sepia(100%) hue-rotate(309deg) saturate(400%) opacity(1);
+}
+
+html { scroll-behavior: smooth; }
